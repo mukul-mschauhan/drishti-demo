@@ -18,30 +18,15 @@ from ultralytics import YOLO
 LOGO_URL = "https://raw.githubusercontent.com/mukul-mschauhan/drishti-demo/main/Logos.png"
 
 st.markdown(f"""
-    <head>
-        <!-- Primary Meta Tags -->
-        <title>DRISHTI-SENTINEL</title>
-        <meta name="title" content="DRISHTI-SENTINEL | Evaluation Dashboard">
-        <meta name="description" content="Sovereign AI Fire & Smoke Detection System for Armoured Fighting Vehicles.">
-
-        <!-- Open Graph / Facebook / WhatsApp -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://drishti-demo.streamlit.app/">
-        <meta property="og:title" content="DRISHTI-SENTINEL | Evaluation Dashboard">
-        <meta property="og:description" content="Sovereign AI Fire & Smoke Detection System for AFVs.">
-        <meta property="og:image" content="{LOGO_URL}">
-
-        <!-- Schema.org for Google+ / WhatsApp -->
-        <meta itemprop="name" content="DRISHTI-SENTINEL">
-        <meta itemprop="description" content="Sovereign AI Fire & Smoke Detection System for AFVs.">
-        <meta itemprop="image" content="{LOGO_URL}">
-
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:title" content="DRISHTI-SENTINEL">
-        <meta property="twitter:description" content="Sovereign AI Fire & Smoke Detection System for AFVs.">
-        <meta property="twitter:image" content="{LOGO_URL}">
-    </head>
+    <div style="display:none;">
+        <head>
+            <meta property="og:title" content="DRISHTI-SENTINEL | Evaluation Dashboard" />
+            <meta property="og:description" content="Sovereign AI Fire & Smoke Detection System for AFVs." />
+            <meta property="og:image" content="{LOGO_URL}" />
+            <meta property="og:url" content="https://drishti-demo.streamlit.app/" />
+            <meta property="og:type" content="website" />
+        </head>
+    </div>
 """, unsafe_allow_html=True)
 
 st.set_page_config(
