@@ -15,7 +15,7 @@ from ultralytics import YOLO
 # --- WHATSAPP/SOCIAL PREVIEW FIX ---
 # Replace 'YOUR_IMAGE_URL' with the direct link to your logo on GitHub 
 # Example: https://raw.githubusercontent.com/mukul-mschauhan/drishti-demo/main/logo.png
-LOGO_URL = "https://github.com/mukul-mschauhan/drishti-demo/blob/main/Logos.png"
+LOGO_URL = "https://raw.githubusercontent.com/mukul-mschauhan/drishti-demo/main/Logos.png"
 
 st.markdown(f"""
     <head>
