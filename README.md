@@ -1,5 +1,3 @@
-<img width="3072" height="3072" alt="Dhanush Logo" src="https://dhanushai.com" />
-
 # DRISHTI-SENTINEL: Sovereign AI Fire & Smoke Detection System 
 
 **DRISHTI-SENTINEL** is a robust, edge-deployed computer vision system engineered for the real-time detection of fire and smoke in austere environments, specifically designed for Armoured Fighting Vehicles (AFVs). 
