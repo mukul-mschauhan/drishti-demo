@@ -1,4 +1,4 @@
-<img width="3072" height="3072" alt="Dhanush Logo" src="[https://github.com/user-attachments/assets/502875bb-7b94-4aff-95f0-810d308694b7](https://dhanushai.com/)" />
+<img width="3072" height="3072" alt="Dhanush Logo" src="https://dhanushai.com" />
 
 # DRISHTI-SENTINEL: Sovereign AI Fire & Smoke Detection System 
 
