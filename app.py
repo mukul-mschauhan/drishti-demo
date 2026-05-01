@@ -12,6 +12,22 @@ from datetime import datetime
 from collections import deque
 from ultralytics import YOLO
 
+# --- WHATSAPP/SOCIAL PREVIEW FIX ---
+# Replace 'YOUR_IMAGE_URL' with the direct link to your logo on GitHub 
+# Example: https://raw.githubusercontent.com/mukul-mschauhan/drishti-demo/main/logo.png
+LOGO_URL = "https://github.com/mukul-mschauhan/drishti-demo/blob/main/Logos.png"
+
+st.markdown(f"""
+    <head>
+        <meta property="og:title" content="DRISHTI-SENTINEL | Evaluation Dashboard" />
+        <meta property="og:description" content="Sovereign AI Fire & Smoke Detection System for AFVs." />
+        <meta property="og:image" content="{LOGO_URL}" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
+    </head>
+""", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="DRISHTI-SENTINEL",
     page_icon="Logos.png",
