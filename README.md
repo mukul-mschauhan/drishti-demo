@@ -73,10 +73,3 @@ To run this dashboard on your local machine or an evaluation laptop:
     streamlit run app.py
     ```
     *The dashboard will automatically open in your default web browser at `http://localhost:8501`.*
-
-## 🔒 Confidentiality Notice
-
-This repository and its contents, including the fine-tuned model weights (`best.pt`), are the intellectual property of **Dhanush AI Innovation Pvt Ltd**. This evaluation build is provided strictly for authorized review and demonstration purposes. Do not distribute, reverse-engineer, or deploy in production environments without explicit authorization.
-
----
-*© 2026 Dhanush AI Innovation Pvt Ltd. All rights reserved.*
